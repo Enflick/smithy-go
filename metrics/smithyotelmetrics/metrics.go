@@ -1,7 +1,7 @@
 package smithyotelmetrics
 
 import (
-	"github.com/aws/smithy-go/metrics"
+	"github.com/Enflick/smithy-go/metrics"
 	otelmetric "go.opentelemetry.io/otel/metric"
 )
 

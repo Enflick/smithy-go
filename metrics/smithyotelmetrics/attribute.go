@@ -3,7 +3,7 @@ package smithyotelmetrics
 import (
 	"fmt"
 
-	"github.com/aws/smithy-go"
+	"github.com/Enflick/smithy-go"
 	otelattribute "go.opentelemetry.io/otel/attribute"
 )
 

@@ -4,7 +4,7 @@ package tracing
 import (
 	"context"
 
-	"github.com/aws/smithy-go"
+	"github.com/Enflick/smithy-go"
 )
 
 // SpanStatus records the "success" state of an observed span.

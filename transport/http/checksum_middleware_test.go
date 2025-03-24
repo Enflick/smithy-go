@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	smithyio "github.com/aws/smithy-go/io"
-	"github.com/aws/smithy-go/middleware"
+	smithyio "github.com/Enflick/smithy-go/io"
+	"github.com/Enflick/smithy-go/middleware"
 )
 
 func TestChecksumMiddleware(t *testing.T) {

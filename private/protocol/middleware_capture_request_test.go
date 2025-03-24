@@ -2,9 +2,9 @@ package protocol
 
 import (
 	"context"
-	"github.com/aws/smithy-go/middleware"
-	smithytesting "github.com/aws/smithy-go/testing"
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	"github.com/Enflick/smithy-go/middleware"
+	smithytesting "github.com/Enflick/smithy-go/testing"
+	smithyhttp "github.com/Enflick/smithy-go/transport/http"
 	"io"
 	"io/ioutil"
 	"net/http"

@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/smithy-go/encoding/cbor"
-	"github.com/aws/smithy-go/ptr"
+	"github.com/Enflick/smithy-go/encoding/cbor"
+	"github.com/Enflick/smithy-go/ptr"
 )
 
 func TestEncode_KitchenSink(t *testing.T) {

@@ -4,7 +4,7 @@ package metrics
 import (
 	"context"
 
-	"github.com/aws/smithy-go"
+	"github.com/Enflick/smithy-go"
 )
 
 // MeterProvider is the entry point for creating a Meter.

@@ -2,8 +2,8 @@ package http
 
 import (
 	"context"
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/Enflick/smithy-go/logging"
+	"github.com/Enflick/smithy-go/middleware"
 	"io"
 	"io/ioutil"
 )

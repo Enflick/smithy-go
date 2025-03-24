@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/aws/smithy-go/encoding/json"
+	"github.com/Enflick/smithy-go/encoding/json"
 )
 
 func TestEncoder(t *testing.T) {

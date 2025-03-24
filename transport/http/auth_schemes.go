@@ -3,8 +3,8 @@ package http
 import (
 	"context"
 
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/auth"
+	smithy "github.com/Enflick/smithy-go"
+	"github.com/Enflick/smithy-go/auth"
 )
 
 // NewAnonymousScheme returns the anonymous HTTP auth scheme.

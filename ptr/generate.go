@@ -9,7 +9,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/aws/smithy-go/ptr"
+	"github.com/Enflick/smithy-go/ptr"
 )
 
 func main() {

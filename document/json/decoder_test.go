@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/smithy-go/document"
-	"github.com/aws/smithy-go/document/internal/serde"
-	"github.com/aws/smithy-go/document/json"
+	"github.com/Enflick/smithy-go/document"
+	"github.com/Enflick/smithy-go/document/internal/serde"
+	"github.com/Enflick/smithy-go/document/json"
 )
 
 var decodeArrayTestCases = map[string]testCase{

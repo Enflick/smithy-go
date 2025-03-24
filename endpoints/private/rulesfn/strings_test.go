@@ -1,8 +1,8 @@
 package rulesfn
 
 import (
+	"github.com/Enflick/smithy-go/ptr"
 	"testing"
-	"github.com/aws/smithy-go/ptr"
 )
 
 func TestSubString(t *testing.T) {

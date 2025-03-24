@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/aws/smithy-go/document"
-	"github.com/aws/smithy-go/document/internal/serde"
-	"github.com/aws/smithy-go/encoding/cbor"
+	"github.com/Enflick/smithy-go/document"
+	"github.com/Enflick/smithy-go/document/internal/serde"
+	"github.com/Enflick/smithy-go/encoding/cbor"
 )
 
 // encoderOptions is the set of options that can be configured for an Encoder.

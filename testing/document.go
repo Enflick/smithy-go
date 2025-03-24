@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/aws/smithy-go/testing/xml"
+	"github.com/Enflick/smithy-go/testing/xml"
 )
 
 // JSONEqual compares two JSON documents and identifies if the documents contain

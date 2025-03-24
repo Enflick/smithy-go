@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http/httputil"
 
-	"github.com/aws/smithy-go/logging"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/Enflick/smithy-go/logging"
+	"github.com/Enflick/smithy-go/middleware"
 )
 
 // RequestResponseLogger is a deserialize middleware that will log the request and response HTTP messages and optionally

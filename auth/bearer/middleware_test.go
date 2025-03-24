@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	smithyhttp "github.com/aws/smithy-go/transport/http"
+	smithyhttp "github.com/Enflick/smithy-go/transport/http"
 )
 
 func TestSignHTTPSMessage(t *testing.T) {

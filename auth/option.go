@@ -1,6 +1,6 @@
 package auth
 
-import "github.com/aws/smithy-go"
+import "github.com/Enflick/smithy-go"
 
 type (
 	authOptionsKey struct{}

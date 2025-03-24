@@ -7,7 +7,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/aws/smithy-go/encoding/cbor"
+	"github.com/Enflick/smithy-go/encoding/cbor"
 )
 
 // CompareCBOR checks whether two CBOR values are equivalent.

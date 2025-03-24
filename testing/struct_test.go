@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/ptr"
+	"github.com/Enflick/smithy-go/middleware"
+	"github.com/Enflick/smithy-go/ptr"
 )
 
 func TestCompareValues(t *testing.T) {

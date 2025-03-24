@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/aws/smithy-go/middleware"
-	"github.com/aws/smithy-go/transport/http"
+	"github.com/Enflick/smithy-go/middleware"
+	"github.com/Enflick/smithy-go/transport/http"
 	"io"
 )
 

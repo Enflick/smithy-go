@@ -2,9 +2,9 @@ package http
 
 import (
 	"context"
+	smithy "github.com/Enflick/smithy-go"
+	"github.com/Enflick/smithy-go/auth"
 	"testing"
-	smithy "github.com/aws/smithy-go"
-	"github.com/aws/smithy-go/auth"
 )
 
 func TestIdentity(t *testing.T) {

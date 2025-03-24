@@ -8,8 +8,8 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/aws/smithy-go/document"
-	"github.com/aws/smithy-go/middleware"
+	"github.com/Enflick/smithy-go/document"
+	"github.com/Enflick/smithy-go/middleware"
 )
 
 // CompareValues compares two values to determine if they are equal,

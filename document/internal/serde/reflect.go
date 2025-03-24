@@ -1,7 +1,7 @@
 package serde
 
 import (
-	"github.com/aws/smithy-go/document"
+	"github.com/Enflick/smithy-go/document"
 	"math/big"
 	"reflect"
 	"time"
