@@ -1,7 +1,5 @@
 package smithy
 
-import "maps"
-
 // PropertiesReader provides an interface for reading metadata from the
 // underlying metadata container.
 type PropertiesReader interface {
@@ -59,7 +57,11 @@ func (m *Properties) SetAll(other *Properties) {
 
 // Values returns a shallow clone of the property set's values.
 func (m *Properties) Values() map[any]any {
-	return maps.Clone(m.values)
+	var values = make(map[any]any, len(m.values))
+	for k, v := range m.values {
+		values[k] = v
+	}
+	return values
 }
 
 func (m *Properties) lazyInit() {
